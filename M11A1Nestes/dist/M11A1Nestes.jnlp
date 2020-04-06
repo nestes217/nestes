@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="M11A1Nestes.jnlp">
+  <information>
+    <title>M11A1Nestes</title>
+    <vendor>ngnes</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="M11A1Nestes.jar" size="3487" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="M11A1Nestes" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="m11a1nestes.M11A1Nestes"  name="M11A1Nestes" />
+  <update check="always"/>
+</jnlp>
